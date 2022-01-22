@@ -1,0 +1,122 @@
+body{
+    background-image: linear-gradient( 90deg,#019ffc ,#2af499);
+}
+#navBar{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 10px 50px #333;
+    
+}
+.form{
+    background-color: whitesmoke;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    box-shadow: 5px 10px 20px #333;
+    
+}
+#logo , #user {
+    width: 3%;
+    margin: 10px;
+}
+#user{
+    float: right;
+    width: 2%;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+#user:hover{
+    background-color: #eee;
+}
+#login{
+    border: none;
+    background-color: white;
+    margin-top: 0;
+    padding: 10px;
+    border-bottom: 4px solid #758eb7;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+#singin{
+    background-color: whitesmoke;
+    border: none;
+    padding : 10px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.header input{
+    width: 5%;
+    float: right;
+    margin: 10px;
+    opacity: 0.5;
+}
+.header input:hover{
+    opacity: 1;
+}
+
+.header{
+    text-align: center;
+    margin-top: 0;
+}
+#logForm{
+    position: absolute;
+    align-self: center;
+    padding: 30px;
+    left: 15%;
+    
+   
+    
+    
+    
+    
+}
+#singForm{
+    position: absolute;
+    align-self: center;
+    padding: 30px;
+    left: 15%;
+    
+
+}
+input[type="text"] , input[type="password"] ,input[type="email"]{
+    width: 80%;
+    border: 3px solid #758eb7;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+    
+}
+#logBtn{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #758eb7;
+    color: white;
+    border: none;
+}
+#singBtn{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #758eb7;
+    color: white;
+    border: none;
+}
+
